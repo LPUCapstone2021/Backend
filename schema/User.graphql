@@ -1,0 +1,26 @@
+type Range {
+  max: 10
+  min: 0
+}
+
+type Preference {
+  feature: [String]
+  priority(type: Int): Range
+}
+
+type User {
+  """
+  Unique Id associated with the car
+  """
+  id: ID!
+
+  """
+  user name. e.g Ramesh
+  """
+  name: String!
+
+  """
+  Car prefrence
+  """
+  preferences: [Preference]
+}
