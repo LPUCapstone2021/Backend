@@ -10,9 +10,14 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @cross_origin()
 def form():
     data = request.json
-    return jsonify({
-        "Message": data
-    })
+    if data:
+        return jsonify({
+            "Message": data
+        })
+    else:
+        return jsonify({
+            "Message": "Error body"
+        })
 
 @app.route('/')
 @cross_origin()
