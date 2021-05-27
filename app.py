@@ -7,7 +7,7 @@ cors = CORS(app, resources={r'/form': {'origins': '*'}})
 
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-@app.route('/form', methods=['POST'])
+@app.route('/form', methods=['POST', 'OPTIONS'])
 @cross_origin()
 def form():
     form = request.json
