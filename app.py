@@ -3,16 +3,14 @@ from flask_cors import CORS, cross_origin
 from engine import recommended_cars
 
 app = Flask(__name__)
-cors = CORS(app, resources={r'/form': {'origins': '*'}})
+cors = CORS(app, resources={r'/form': {'origins': 'https://carsandcars.netlify.app'}})
 
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-@app.route('/form', methods=['POST', 'OPTIONS'])
-@cross_origin()
+@app.route('/form', methods=['POST'])
 def form():
     form = request.json
-    features = form.get('features')
-    preferences = form.get('preferences')
+    features, preferences = form.get('features'), form.get('preferences')
     if form:
         response = jsonify({
             "status": "success",
