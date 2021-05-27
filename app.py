@@ -13,18 +13,16 @@ def form():
     form = request.json
     features, preferences = form.get('features'), form.get('preferences')
     if form:
-        response = jsonify({
+        return jsonify({
             "status": "success",
             "method": "POST",
             "data": recommended_cars(features, preferences)
         })
     else:
-        response = jsonify({
+        return jsonify({
             "status": "failure",
             "message": "Error, check server logs"
         })
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    return response
 
 @app.route('/')
 @cross_origin()
