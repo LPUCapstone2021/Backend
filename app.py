@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
+from engine import recommended_cars
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -9,14 +10,19 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route('/form', methods=['POST'])
 @cross_origin()
 def form():
-    data = request.json
-    if data:
+    form = request.json
+    features = form.get('features')
+    preferences = form.get('preferences')
+    if form:
         return jsonify({
-            "Message": data
+            "status": "success",
+            "method": "POST",
+            "data": recommended_cars(features, preferences)
         })
     else:
         return jsonify({
-            "Message": "Error body"
+            "status": "failure",
+            "message": "Error, check server logs"
         })
 
 @app.route('/')
