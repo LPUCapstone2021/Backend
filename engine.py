@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('FeaturesData.csv')
+df = pd.read_csv('data/features.csv')
 df.index += 1
 
 def recommended_cars(features_vectos, features_priorities):

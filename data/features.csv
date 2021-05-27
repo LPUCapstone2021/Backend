@@ -1,0 +1,51 @@
+,Car names,Comfort,Performance,Safety,Fuel efficiency,After Sale Support,Styling,Space,Value for money,Avg life of car,Engine,id
+0,Audi A4,0,1,1,0,1,0,0,1,0,1,1
+1,Audi A8,1,1,1,0,0,0,1,1,0,1,2
+2,BMW X4,1,1,1,0,1,0,0,1,0,1,3
+3,BMW X6,1,1,1,0,1,1,0,0,0,1,4
+4,Fiat Punto,0,1,1,1,0,0,1,0,1,0,5
+5,Ford Aspire,1,1,0,1,0,0,1,0,1,0,6
+6,Ford Endeavour,1,1,0,0,1,1,0,0,1,0,7
+7,Honda Jazz,0,0,1,1,1,0,1,0,0,1,8
+8,Hyundai Aura,1,0,0,0,1,1,1,1,0,0,9
+9,Honda WR-V,0,1,0,1,0,0,1,1,1,0,10
+10,Hyundai Santro,0,0,0,1,0,1,0,1,1,1,11
+11,Hyundai Creta,1,1,0,0,1,1,1,0,1,0,12
+12,Hyundai Aura,1,0,0,0,0,1,1,0,0,1,13
+13,Hyundai Venue,1,1,0,0,1,1,0,0,1,0,14
+14,Jaguar XE,1,1,1,0,0,1,0,1,0,1,15
+15,Jeep Compass,0,1,1,0,1,1,1,0,0,1,16
+16,Jeep Wrangler,0,0,1,0,0,1,0,0,1,1,17
+17,Land Rover Defender,0,1,0,1,1,0,1,0,1,1,18
+18,Lexus ES,0,1,0,1,0,1,1,0,1,1,19
+19,Lexus LX,1,1,0,1,0,1,1,0,0,0,20
+20,Lexus RX,0,1,1,0,0,1,0,0,1,1,21
+21,MG Hector,0,0,1,1,1,0,1,1,0,0,22
+22,MG Hector Plus,0,0,1,1,0,1,0,1,0,1,23
+23,Mahindra Scorpio,1,1,0,1,0,0,1,0,1,0,24
+24,Mahindra Thar,0,1,1,0,1,0,1,0,1,1,25
+25,Mahindra XUV300,0,1,1,0,1,0,0,1,1,0,26
+26,Mahindra XUV500,1,1,0,1,0,0,1,0,0,1,27
+27,Mahindra Bolero,1,0,0,1,1,1,0,1,0,0,28
+28,Maruti Dzire,0,1,0,1,0,0,1,1,0,1,29
+29,Maruti Swift,0,0,1,1,0,0,1,1,0,0,30
+30,Maruti XL6,0,1,0,0,1,0,1,1,0,1,31
+31,Mercedes-Benz EQC,1,1,1,0,0,0,0,0,1,1,32
+32,Mercedes-Benz GLC,1,1,1,0,0,0,0,1,0,1,33
+33,New Skoda Superb,1,0,0,1,0,1,1,1,1,0,34
+34,Nissan Kicks,0,0,0,1,1,0,0,1,0,1,35
+35,Nissan Magnite,0,1,0,1,1,0,0,1,0,1,36
+36,Porsche 718,1,0,1,0,0,1,1,0,1,0,37
+37,Renault Duster,1,1,0,0,1,0,0,1,1,0,38
+38,Renault Kiger,1,1,0,1,0,0,0,1,0,1,39
+39,Tata Altroz,0,0,1,1,1,0,1,0,0,1,40
+40,Tata Harrier,1,1,0,0,1,0,1,0,1,0,41
+41,Tata Nexon,1,1,0,0,0,1,1,1,0,1,42
+42,Tata Tigor,0,0,1,0,1,0,0,1,1,1,43
+43,Toyota Camry,0,0,0,1,1,0,1,1,1,0,44
+44,Toyota Glanza,0,1,1,1,0,0,0,1,0,1,45
+45,Toyota Innova Crysta,1,1,1,0,0,1,1,0,0,0,46
+46,Volkswagen Polo,1,1,1,0,1,1,0,0,0,0,47
+47,Volkswagen T-Roc,0,1,0,1,0,0,1,0,1,1,48
+48,Volvo S60,1,0,1,1,0,0,1,1,0,1,49
+49,Volvo XC40,0,0,0,0,1,1,1,1,1,0,50
