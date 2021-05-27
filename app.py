@@ -10,9 +10,9 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route('/form', methods=['POST'])
 @cross_origin()
 def form():
-    form = request.json
-    features, preferences = form.get('features'), form.get('preferences')
-    if form:
+    features = request.json.get('features')
+    preferences = request.json.get('preferences')
+    if features and preferences:
         return jsonify({
             "status": "success",
             "method": "POST",

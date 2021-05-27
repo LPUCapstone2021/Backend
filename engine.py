@@ -24,8 +24,6 @@ def recommended_cars(features_vectos, features_priorities):
             vector = np.array(v)
             dist = np.linalg.norm(vector - user_vector) 
             similarity_score.append(round(dist, 2))
-            print(similarity_score)
-
 
         return similarity_score
 
